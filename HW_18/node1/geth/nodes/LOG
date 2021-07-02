@@ -1,0 +1,69 @@
+=============== Jun 29, 2021 (CDT) ===============
+22:16:12.558005 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:16:12.574796 db@open opening
+22:16:12.574796 version@stat F·[] S·0B[] Sc·[]
+22:16:12.590489 db@janitor F·2 G·0
+22:16:12.590489 db@open done T·15.6931ms
+23:10:42.632051 memdb@flush N·43504 S·3MiB
+23:10:42.748308 memdb@flush created L0@3 N·43504 S·868KiB "loc..seq,v28":"version,v1"
+23:10:42.748308 version@stat F·[1] S·868KiB[868KiB] Sc·[0.25]
+23:10:42.770700 memdb@flush committed F·1 T·138.649ms
+23:10:42.771702 journal@remove removed @1
+23:55:42.622909 memdb@flush N·41126 S·3MiB
+23:55:42.751580 memdb@flush created L0@5 N·41126 S·775KiB "n:\x00..ing,v57100":"n:\xff..ong,v62225"
+23:55:42.751580 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+23:55:42.822952 memdb@flush committed F·1 T·200.0432ms
+23:55:42.822952 journal@remove removed @2
+23:55:50.918529 table@compaction L0·2 -> L1·0 S·1MiB Q·84712
+23:55:51.048515 table@build created L1@6 N·23552 S·828KiB "loc..seq,v28":"version,v1"
+23:55:51.048515 version@stat F·[0 1] S·828KiB[0B 828KiB] Sc·[0.00 0.01]
+23:55:51.081087 table@compaction committed F-1 S-815KiB Ke·0 D·61078 T·150.0246ms
+23:55:51.081087 table@remove removed @5
+23:55:51.082109 table@remove removed @3
+=============== Jun 30, 2021 (CDT) ===============
+00:43:12.631920 memdb@flush N·41483 S·3MiB
+00:43:12.707053 memdb@flush created L0@8 N·41483 S·782KiB "n:\x00..ing,v111487":"n:\xff..ing,v117583"
+00:43:12.707053 version@stat F·[1 1] S·1MiB[782KiB 828KiB] Sc·[0.25 0.01]
+00:43:12.726005 memdb@flush committed F·1 T·94.0851ms
+00:43:12.727003 journal@remove removed @4
+00:43:23.955143 table@compaction L0·1 -> L1·1 S·1MiB Q·126369
+00:43:24.053769 table@build created L1@9 N·30971 S·1MiB "loc..seq,v28":"version,v1"
+00:43:24.053769 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+00:43:24.092943 table@compaction committed F-1 S-512KiB Ke·0 D·34064 T·137.7992ms
+00:43:24.107836 table@remove removed @8
+00:43:24.109796 table@remove removed @6
+08:41:12.621630 memdb@flush N·40772 S·3MiB
+08:41:12.703095 memdb@flush created L0@11 N·40772 S·762KiB "n:\x00..ing,v133393":"n:\xff..ong,v136759"
+08:41:12.703095 version@stat F·[1 1] S·1MiB[762KiB 1MiB] Sc·[0.25 0.01]
+08:41:12.724355 memdb@flush committed F·1 T·102.7249ms
+08:41:12.726349 journal@remove removed @7
+08:41:22.360034 table@compaction L0·1 -> L1·1 S·1MiB Q·167197
+08:41:22.453651 table@build created L1@12 N·37299 S·1MiB "loc..seq,v28":"version,v1"
+08:41:22.453651 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+08:41:22.473970 table@compaction committed F-1 S-528KiB Ke·0 D·34444 T·113.9359ms
+08:41:22.474933 table@remove removed @11
+08:41:22.475930 table@remove removed @9
+13:25:30.726928 memdb@flush N·39958 S·3MiB
+13:25:30.822571 memdb@flush created L0@14 N·39958 S·755KiB "n:\x00..ail,v205907":"n:\xff..ong,v169813"
+13:25:30.822571 version@stat F·[1 1] S·2MiB[755KiB 1MiB] Sc·[0.25 0.01]
+13:25:30.842513 memdb@flush committed F·1 T·115.5859ms
+13:25:30.844509 journal@remove removed @10
+13:25:40.721876 table@compaction L0·1 -> L1·1 S·2MiB Q·206872
+13:25:40.862741 table@build created L1@15 N·42983 S·1MiB "loc..seq,v28":"version,v1"
+13:25:40.862741 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+13:25:40.883716 table@compaction committed F-1 S-544KiB Ke·0 D·34274 T·161.8399ms
+13:25:40.884713 table@remove removed @14
+13:25:40.885711 table@remove removed @12
+14:17:12.631443 memdb@flush N·40118 S·3MiB
+14:17:12.780639 memdb@flush created L0@17 N·40118 S·735KiB "n:\x00..ing,v220217":"n:\xff..ong,v216339"
+14:17:12.780639 version@stat F·[1 1] S·2MiB[735KiB 1MiB] Sc·[0.25 0.02]
+14:17:12.802004 memdb@flush committed F·1 T·167.4036ms
+14:17:12.803005 journal@remove removed @13
+14:17:27.632333 table@compaction L0·1 -> L1·1 S·2MiB Q·247053
+14:17:27.868727 table@build created L1@18 N·48227 S·1MiB "loc..seq,v28":"version,v1"
+14:17:27.868727 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+14:17:27.905231 table@compaction committed F-1 S-539KiB Ke·0 D·34874 T·272.8979ms
+14:17:27.905231 table@remove removed @17
+14:17:27.906233 table@remove removed @15
+18:30:14.971503 db@close closing
+18:30:14.972474 db@close done T·970.6µs
